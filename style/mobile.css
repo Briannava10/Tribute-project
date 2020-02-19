@@ -1,0 +1,22 @@
+
+
+
+@media (max-width: 500px) {
+
+img {
+    width: 300px;
+}
+
+.container {
+    width: 400px;
+}
+#tribute-info {
+    padding: 0;
+}
+
+ul {
+    width: 300px;
+    padding:  0.25rem;
+}
+
+}

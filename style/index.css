@@ -1,0 +1,97 @@
+/*  Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    padding-bottom: 15px;
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+body {
+    background: rgb(73, 2, 128);
+    font-family: 'Roboto', sans-serif;
+}
+
+.py-1 {padding: 0.5rem 0}
+.py-2 {padding: 1.5rem 0;}
+.py-3 {padding: 2rem 0;}
+.py-4 {padding: 3rem 0;}
+
+.p-1 {padding: 1.5rem;}
+.p-2 {padding: 2rem;}
+.p-3 {padding: 3rem;}
+
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} 
+
+.container {
+    border: 0.4rem black solid;
+    background-color: rgb(221, 203, 4) ;
+    max-width: 750px;
+    overflow: hidden;
+    margin: 10px auto;
+    padding: 2.2rem;
+}
+
+figcaption {
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+#tribute-info{
+    padding: 0 1.5rem;
+    margin:  auto;
+    font-size: 1rem;
+    line-height: 1em;
+}
+
+ul {
+    margin: 0.2rem auto;
+    width: 600px;
+    padding: 0 2rem;
+}
+
+ul li {
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 1.5em;
+}
+
+#tribute-info strong {
+    color: rgb(102, 27, 177);
+
+}
+
+#tribute-link{
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 1.2em;
+}
+
+#tribute-link a {
+    color: rgb(221, 203, 4);
+    text-decoration: none;
+    transition: all 1s ease-out;
+}
+
+#tribute-link a:hover {
+    color: rgb(174, 0, 255);
+}
